@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="counter-container">
+    <div class="counter-box">
+            <h2>{{ count }}</h2>
+            <div class="buttons">
+                <button class="subtract" (click)="removeNumber()">-</button>
+                <button class="add" (click)="addNumber()" >+</button>
+            </div>
+        </div>
+        <button class="reset" (click)="resetNumber()">
+            <i class="fa fa-undo"></i>
+            Reset</button>
+</div>
